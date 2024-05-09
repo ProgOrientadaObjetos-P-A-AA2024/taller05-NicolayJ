@@ -30,11 +30,11 @@ public class Ejecutor {
                 System.out.print("  Ingrese calificacion 2: ");
                 double calificacion2 = tecla.nextDouble();
 
-                LibretaNotas notas = new LibretaNotas(nombre, calificacion1, 
+                LibretaNotas estudiante = new LibretaNotas(nombre, calificacion1, 
                         calificacion2);
-                notas.calcularPromedioNotas();
+                estudiante.calcularPromedioNotas();
 
-                System.out.printf("%s",notas);
+                System.out.printf("%s",estudiante);
             } else if (opcion == 2) {
                 System.out.println("=========================================");
                 System.out.print("Ingrese nombre del estudiante: ");
@@ -46,11 +46,11 @@ public class Ejecutor {
                 System.out.print("  Ingrese calificacion 3: ");
                 double calificacion3 = tecla.nextDouble();
 
-                LibretaNotas notas = new LibretaNotas(nombre, calificacion1,
+                LibretaNotas estudiante = new LibretaNotas(nombre, calificacion1,
                         calificacion2, calificacion3);
-                notas.calcularPromedioNotas();
+                estudiante.calcularPromedioNotas();
 
-                System.out.printf("%s",notas);
+                System.out.printf("%s",estudiante);
             } else if (opcion == 3) {
                 System.out.println("Saliendo...");
                 bandera = false;

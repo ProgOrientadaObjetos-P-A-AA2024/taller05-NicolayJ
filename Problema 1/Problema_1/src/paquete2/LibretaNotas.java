@@ -23,7 +23,7 @@ public class LibretaNotas {
         nombreEstudiante = n;
         calificacion01 = c1;
         calificacion02 = c2;
-        calificacion03 = 10;
+        calificacion03 = (c1 + c2) / 2;
     }
     
     public void establecerNombreEstudiante(String x) {
